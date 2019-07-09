@@ -100,10 +100,6 @@ namespace ConsoleApp1
                 }
 
                 list.Add(score);
-                if (list[list.Count - 1].Total != 0 && list.Count >= 2)
-                {
-                    list[list.Count - 1].Total += list[list.Count - 2].Total;
-                }
 
                 this.Check(list);
             }
